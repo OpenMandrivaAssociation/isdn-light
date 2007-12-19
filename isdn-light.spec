@@ -1,7 +1,7 @@
 Summary:	Networking with the isdn subsystem, light version
 Name:		isdn-light
 Version:	0.8
-Release:	%mkrel 13
+Release:	%mkrel 14
 License:	GPL
 Group:		System/Kernel and hardware
 URL:		http://www.linux-mandrake.com/en/cvs.php3
