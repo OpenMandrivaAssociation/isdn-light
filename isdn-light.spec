@@ -7,6 +7,7 @@ Group:		System/Kernel and hardware
 URL:		http://www.linux-mandrake.com/en/cvs.php3
 Source:		%{name}-%{version}.tar.bz2
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{version}-%{release}-buildroot
 Requires:	isdn4k-utils
 Conflicts:	isdn4net
 
