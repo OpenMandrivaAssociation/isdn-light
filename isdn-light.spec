@@ -4,7 +4,7 @@ Version:	0.8
 Release:	%mkrel 14
 License:	GPL
 Group:		System/Kernel and hardware
-URL:		http://www.linux-mandrake.com/en/cvs.php3
+URL:		http://cvs.mandriva.com
 Source:		%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{version}-%{release}-buildroot
