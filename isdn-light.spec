@@ -1,7 +1,7 @@
 Summary:	Networking with the isdn subsystem, light version
 Name:		isdn-light
 Version:	0.8
-Release:	%mkrel 16
+Release:	%mkrel 17
 License:	GPL
 Group:		System/Kernel and hardware
 URL:		http://cvs.mandriva.com
@@ -23,6 +23,7 @@ It is simple, clean and tiny. Ideal for small configuration.
 %install
 rm -rf %{buildroot}
 %makeinstall
+rm -f %{buildroot}%{_sysconfdir}/sysconfig/network-scripts/ifcfg-ippp0
 
 %clean
 rm -rf %{buildroot}
@@ -38,7 +39,6 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/ppp/ioptions2B
 %config(noreplace) %{_sysconfdir}/sysconfig/network-scripts/ifup-ippp
 %config(noreplace) %{_sysconfdir}/sysconfig/network-scripts/ifdown-ippp
-%config(noreplace) %{_sysconfdir}/sysconfig/network-scripts/ifcfg-ippp0
 %doc README
 
 
