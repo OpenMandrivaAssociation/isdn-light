@@ -1,7 +1,7 @@
 Summary:	Networking with the isdn subsystem, light version
 Name:		isdn-light
 Version:	0.8
-Release:	%mkrel 22
+Release:	%mkrel 23
 License:	GPL
 Group:		System/Kernel and hardware
 URL:		http://cvs.mandriva.com
