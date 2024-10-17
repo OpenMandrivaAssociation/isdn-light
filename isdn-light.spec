@@ -4,7 +4,7 @@ Version:	0.8
 Release:	35
 License:	GPLv2
 Group:		System/Kernel and hardware
-Url:		http://cvs.mandriva.com
+Url:		https://cvs.mandriva.com
 Source0:	%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 Requires:	isdn4k-utils
